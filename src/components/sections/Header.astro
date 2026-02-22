@@ -9,11 +9,11 @@ import ThemeToggle from "../ui/button/ThemeToggle.astro";
         <div class="flex items-center gap-3">
             <a
                 class="no-underline hover:opacity-90 flex items-center gap-2"
-                href="/"
+                href={import.meta.env.BASE_URL}
                 aria-label="Home"
             >
                 <img
-                    src="/favicon.png?v=1"
+                    src={`${import.meta.env.BASE_URL}favicon.png?v=1`}
                     alt=""
                     aria-hidden="true"
                     width="45"

@@ -1,12 +1,27 @@
 ---
-import type { HTMLAttributes } from 'astro/types';
+import type { HTMLAttributes } from "astro/types";
 
-type Props = HTMLAttributes<'a'>;
+type Props = HTMLAttributes<"a">;
 
-const { href, class: className, ...props } = Astro.props;
-const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
+const { href: rawHref, class: className, ...props } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
+
+// If href starts with '/' but isn't already the baseUrl itself, prepend baseUrl.
+// If rawHref is exactly "/", it becomes baseUrl
+const href =
+	typeof rawHref === "string" && rawHref.startsWith("/")
+		? rawHref === "/"
+			? baseUrl
+			: `${baseUrl}${rawHref.slice(1)}`
+		: rawHref;
+
+const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, "");
 const subpath = pathname.match(/[^\/]+/g);
-const isActive = href === pathname || href === '/' + (subpath?.[0] || '');
+// Adjusted logic for isActive to work with the processed href
+const isActive =
+	rawHref === pathname ||
+	rawHref === "/" + (subpath?.[0] || "") ||
+	href === Astro.url.pathname;
 ---
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>

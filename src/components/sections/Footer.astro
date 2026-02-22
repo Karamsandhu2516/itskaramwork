@@ -63,8 +63,10 @@ const inoreaderUrl = `https://www.inoreader.com/?add_feed=${feedUrl}`;
       data-copy={feedUrl}
       aria-label="Copy RSS link">Copy RSS link</button
     >
-    <a class="sw-btn-sm" href="/blog/" aria-label="Browse all posts"
-      >All posts</a
+    <a
+      class="sw-btn-sm"
+      href={`${import.meta.env.BASE_URL}blog/`}
+      aria-label="Browse all posts">All posts</a
     >
     <a
       class="sw-btn-sm"
@@ -75,7 +77,7 @@ const inoreaderUrl = `https://www.inoreader.com/?add_feed=${feedUrl}`;
     >
     <a
       class="sw-btn-sm"
-      href="/itskaramwork/resume.pdf"
+      href={`${import.meta.env.BASE_URL}itskaramwork/resume.pdf`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Resume">Resume</a
