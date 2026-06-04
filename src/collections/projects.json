@@ -1,17 +1,15 @@
 [
-    
     {
-        "id": "chattingo-app",
-        "title": "Chattingo App",
-        "techStack": "spring boot • React • docker • jenkins",
-        "description": "A full-stack real-time chat application built with React, Spring Boot, and WebSocket technology. Your mission: Containerize this application using Docker and deploy it to Hostinger VPS using Jenkins CI/CD pipeline",
+        "id": "3-tier-Architecture",
+        "title": "3-tier-Architecture",
+        "techStack": "AWS • Terraform • GitHub Actions",
+        "description": "An automated, production-ready three-tier web application infrastructure deployed on AWS using Infrastructure as Code (IaC) via Terraform, featuring fully automated Continuous Integration (CI) validation via GitHub Actions.",
         "ctaText": "Get Source < / >",
-        "ctaLink": "https://github.com/Karamsandhu2516/chattingo-app.git",
-        "iconName": "dockerIcon",
+        "ctaLink": "https://github.com/Karamsandhu2516/aws-project-withterraform",
+        "iconName": "TerraformIcon",
         "published": true,
-        "order": 2
+        "order": 1
     },
-
     {
         "id": "Flask App",
         "title": "FlaskApp",
@@ -22,6 +20,16 @@
         "iconName": "dockerIcon",
         "published": true,
         "order": 2
+    },
+    {
+        "id": "chattingo-app",
+        "title": "Chattingo App",
+        "techStack": "spring boot • React • docker • jenkins",
+        "description": "A full-stack real-time chat application built with React, Spring Boot, and WebSocket technology. Your mission: Containerize this application using Docker and deploy it to Hostinger VPS using Jenkins CI/CD pipeline",
+        "ctaText": "Get Source < / >",
+        "ctaLink": "https://github.com/Karamsandhu2516/chattingo-app.git",
+        "iconName": "dockerIcon",
+        "published": true,
+        "order": 3
     }
-
 ]
