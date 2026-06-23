@@ -7,6 +7,7 @@ import PythonIcon from '../assets/logos/Python-logo.svg?raw';
 import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
 import dockerIcon from '../assets/logos/docker-logo.svg?raw';
 import TerraformIcon from '../assets/logos/terraform-logo.svg?raw';
+import GitHubActionsIcon from '../assets/logos/GitHubActions-logo.svg?raw';
 
 export {
     PhoenixIcon,
@@ -16,6 +17,7 @@ export {
     PythonIcon,
     TailwindIcon,
     dockerIcon,
-    TerraformIcon
+    TerraformIcon,
+    GitHubActionsIcon
 };
 

@@ -11,13 +11,13 @@
         "order": 1
     },
     {
-        "id": "Flask App",
-        "title": "FlaskApp",
-        "techStack": "spring boot • React • docker • jenkins",
-        "description": "A full-stack real-time chat application built with React, Spring Boot, and WebSocket technology. Your mission: Containerize this application using Docker and deploy it to Hostinger VPS using Jenkins CI/CD pipeline",
+        "id": "Microservices Pipeline",
+        "title": "Retail Store Multi-Service CI/CD",
+        "techStack": "AWS • GitHub Actions • Docker • Amazon ECR",
+        "description": "An enterprise-grade CI infrastructure managing independent deployment lifecycles for multiple microservices in a monorepo. Features secure AWS OIDC passwordless authentication and optimized path-filtering to concurrently build and push containerized images to Amazon ECR.",
         "ctaText": "Get Source < / >",
-        "ctaLink": "https://github.com/Karamsandhu2516/two-tier-flask-app.git",
-        "iconName": "dockerIcon",
+        "ctaLink": "https://github.com/Karamsandhu2516/retail-store-sample-app.git",
+        "iconName": "GitHubActionsIcon",
         "published": true,
         "order": 2
     },
