@@ -26,3 +26,4 @@ export function getProjects() {
 
 // For backwards compatibility, also export as constant
 export const projects = getProjects();
+// Trigger reload
