@@ -8,6 +8,7 @@ import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
 import dockerIcon from '../assets/logos/docker-logo.svg?raw';
 import TerraformIcon from '../assets/logos/terraform-logo.svg?raw';
 import GitHubActionsIcon from '../assets/logos/GitHubActions-logo.svg?raw';
+import AWSIcon from '../assets/logos/aws-logo.svg?raw';
 
 export {
     PhoenixIcon,
@@ -18,6 +19,7 @@ export {
     TailwindIcon,
     dockerIcon,
     TerraformIcon,
-    GitHubActionsIcon
+    GitHubActionsIcon,
+    AWSIcon
 };
 

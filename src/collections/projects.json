@@ -24,11 +24,11 @@
     {
         "id": "aws-data-lake",
         "title": "AWS-Data-Lake",
-        "techStack": "AWS",
-        "description": "An AWS Data Lake project.",
+        "techStack": "AWS • S3 • Glue • Athena",
+        "description": "A scalable and cost-effective data lake architecture built on AWS. Leverages Amazon S3 for centralized data storage, AWS Glue for serverless data integration and ETL processes, and Amazon Athena for interactive querying and analytics. Designed to handle large volumes of diverse data structures securely.",
         "ctaText": "Get Source < / >",
         "ctaLink": "https://github.com/Karamsandhu2516/AWS-Data-Lake",
-        "iconName": "PythonIcon",
+        "iconName": "AWSIcon",
         "published": true,
         "order": 3
     },
